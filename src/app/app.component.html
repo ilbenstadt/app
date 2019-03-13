@@ -1,0 +1,17 @@
+<div class="ea-container" xmlns="http://www.w3.org/1999/html">
+  <ea-header (toggleMenu)="sideNav.toggle()">
+    <div class="ea-header-title">
+      <div class="ea-header-title-part1 mat-caption"><div class="ea-header-title-part1-arch">Architects' &</div><div class="ea-header-title-part1-eng">Software Engineers'</div></div>
+      <div>Summit 2018</div>
+    </div>
+  </ea-header>
+  <mat-sidenav-container class="ea-sidenav-container">
+    <mat-sidenav #sideNav [opened]="isNavigationOpened()" [mode]="getModeByScreenSize()" [fixedInViewport]="isMobile()" fixedTopGap="56">
+      <ea-sidenav (navigate)="isMobile() && sideNav.close()"></ea-sidenav>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
+

@@ -1,5 +1,15 @@
-# Compiled class file
+# hidden files
+.*
+
+# compiled output
+/dist
+/dist-server
+/tmp
+/out-tsc
 *.class
+
+# dependencies
+/node_modules
 
 # Log file
 *.log

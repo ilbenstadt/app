@@ -1,0 +1,23 @@
+<div *ngIf="areStreamsAvailable">
+  <mat-card class="workshop-stream" *ngFor="let stream of streamsData.workshopStreams">
+    <mat-card-header>
+      <mat-card-title><h2 class="mat-title">{{stream.name}}</h2></mat-card-title>
+      <mat-card-subtitle>
+        <div class="stream-subtitle-item mat-body-1">
+          <mat-icon>{{getPresentersIcon(stream)}}</mat-icon>
+          <span class="icon-label">Streamleads: {{getDisplayablePresenters(stream)}}</span>
+        </div>
+        <div class="stream-subtitle-item mat-body-1">
+          <mat-icon>home</mat-icon>
+          <span class="icon-label">{{stream.room}}</span>
+        </div>
+      </mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p class="mat-body-1">{{stream.description}}</p>
+    </mat-card-content>
+  </mat-card>
+</div>
+<div *ngIf="!areStreamsAvailable">
+  The workshop streams data could not be loaded.
+</div>

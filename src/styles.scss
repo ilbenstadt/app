@@ -1,0 +1,44 @@
+@import "cg-theme";
+@import "variables";
+
+body {
+  background: $ea-white;
+  margin: 0;
+}
+
+a, a:visited, a:active {
+  color: $ea-cg-blue!important;
+}
+
+a:hover, a:focus {
+  color: $ea-deep-purple!important;
+}
+
+.mat-nav-list .mat-list-item .mat-list-item-content {
+  padding: 0 60px 0 30px!important;
+}
+
+.mat-tab-label {
+  min-width: 300px;
+}
+
+.mat-tab-group, .mat-tab-body-wrapper {
+  height: 100%;
+}
+
+.mat-card {
+  background: $ea-grey;
+  margin: 24px;
+  box-shadow: none!important;
+
+  .mat-card-title {
+    color: $ea-deep-purple;
+  }
+}
+
+@media (max-width: 599px) {
+
+  .mat-tab-group {
+    height: calc(100vh - #{$ea-toolbar-height-mobile});
+  }
+}

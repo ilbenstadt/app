@@ -1,0 +1,38 @@
+.workshop-stream {
+
+  .mat-card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .mat-card-title, .mat-title {
+      margin-bottom: 10px;
+    }
+
+    .mat-card-subtitle {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .stream-subtitle-item {
+        margin-right: 1em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+
+        mat-icon {
+          font-size: 20px;
+          height: 20px;
+          width: 20px;
+        }
+
+        .icon-label {
+          margin: 0.3em;
+        }
+      }
+    }
+  }
+}

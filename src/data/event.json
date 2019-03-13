@@ -1,0 +1,842 @@
+{
+  "general": {
+    "app": {
+      "mainTitle": "Ilbenstadt Osterkloster 2019"
+    }
+  },
+  "agenda": {
+    "days": [
+      {
+        "id": 1,
+        "date": "2019-04-14",
+        "timeSlots": [
+          {
+            "id": 101,
+            "startTime": "16:00",
+            "endTime": "18:00",
+            "name": "Anreise",
+            "isBreak": true
+          },
+          {
+            "id": 102,
+            "startTime": "18:00",
+            "endTime": "19:00",
+            "name": "Abendessen",
+            "room": "Speisesaal",
+            "isBreak": true
+          },
+          {
+            "id": 103,
+            "startTime": "19:15",
+            "endTime": "19:45",
+            "name": "Grosse Runde",
+            "room": "Gottfriedsbogen",
+            "isBreak": false
+          },
+          {
+            "id": 104,
+            "startTime": "20:30",
+            "endTime": "22:00",
+            "name": "Kennenlern",
+            "description": "Namensspiel für Erwachsenen und Betreuer",
+            "room": "Gottfriedssaal",
+            "isBreak": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "date": "2019-04-15",
+        "timeSlots": [
+          {
+            "id": 201,
+            "startTime": "08:15",
+            "endTime": "08:30",
+            "name": "Morgenandacht",
+            "room": "Kapelle",
+            "isBreak": false
+          },
+          {
+            "id": 202,
+            "startTime": "08:30",
+            "endTime": "09:15",
+            "name": "Frühstück",
+            "room": "Speisesaal",
+            "isBreak": true
+          },
+          {
+            "id": 203,
+            "startTime": "09:30",
+            "endTime": "10:15",
+            "name": "Grosse Runde",
+            "room": "Gottfriedsbogen",
+            "isBreak": false
+          },
+          {
+            "id": 204,
+            "startTime": "10:15",
+            "endTime": "12:30",
+            "name": "Kindergruppe",
+            "room": "jeweiliger Raum",
+            "isBreak": false
+          },
+          {
+            "id": 205,
+            "startTime": "10:25",
+            "endTime": "12:30",
+            "name": "Erwachsenenrunde",
+            "room": "Gottfriedsbogen",
+            "isBreak": false
+          },
+          {
+            "id": 206,
+            "startTime": "12:30",
+            "endTime": "13:30",
+            "name": "Mittagessen",
+            "room": "Speisesaal",
+            "isBreak": false
+          },
+          {
+            "id": 207,
+            "startTime": "13:30",
+            "endTime": "15:15",
+            "name": "Mittagspause",
+            "isBreak": true
+          },
+          {
+            "id": 208,
+            "startTime": "15:20",
+            "endTime": "18:00",
+            "name": "Kindergruppe",
+            "room": "jeweiliger Raum",
+            "isBreak": false
+          },
+          {
+            "id": 209,
+            "startTime": "15:30",
+            "endTime": "18:00",
+            "name": "Workshops",
+            "room": "jeweiliger Raum",
+            "isBreak": false
+          },
+          {
+            "id": 210,
+            "startTime": "18:00",
+            "endTime": "19:00",
+            "name": "Abendessen",
+            "room": "Speisesaal",
+            "isBreak": true
+          },
+          {
+            "id": 211,
+            "startTime": "19:00",
+            "endTime": "20:00",
+            "name": "Große Runde",
+            "room": "Gottfriedsbogen",
+            "isBreak": false
+          },
+          {
+            "id": 212,
+            "startTime": "20:45",
+            "endTime": "21:00",
+            "name": "Abendgebet",
+            "room": "Kapelle",
+            "isBreak": false
+          },
+          {
+            "id": 213,
+            "startTime": "21:00",
+            "endTime": "22:00",
+            "name": "Spieleabend",
+            "room": "Weißer Saal",
+            "isBreak": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "date": "2019-04-16",
+        "timeSlots": [
+          {
+            "id": 301,
+            "startTime": "08:15",
+            "endTime": "08:30",
+            "name": "Morgenandacht",
+            "room": "Kapelle",
+            "isBreak": false
+          },
+          {
+            "id": 302,
+            "startTime": "08:30",
+            "endTime": "09:15",
+            "name": "Frühstück",
+            "room": "Speisesaal",
+            "isBreak": true
+          },
+          {
+            "id": 303,
+            "startTime": "09:30",
+            "endTime": "10:15",
+            "name": "Grosse Runde",
+            "room": "Gottfriedsbogen",
+            "isBreak": false
+          },
+          {
+            "id": 304,
+            "startTime": "10:15",
+            "endTime": "12:30",
+            "name": "Kindergruppe",
+            "room": "jeweiliger Raum",
+            "isBreak": false
+          },
+          {
+            "id": 305,
+            "startTime": "10:25",
+            "endTime": "12:30",
+            "name": "Spaziergang",
+            "description": "Erwachsene spazieren, feste Schuhe anziehen, Gelegenheit zum Einkaufen auf dem Rückweg",
+            "room": "Foyer (Treffpunkt)",
+            "isBreak": false
+          },
+          {
+            "id": 306,
+            "startTime": "12:30",
+            "endTime": "13:30",
+            "name": "Mittagessen",
+            "room": "Speisesaal",
+            "isBreak": false
+          },
+          {
+            "id": 307,
+            "startTime": "13:30",
+            "endTime": "15:15",
+            "name": "Mittagspause",
+            "isBreak": true
+          },
+          {
+            "id": 308,
+            "startTime": "15:20",
+            "endTime": "18:00",
+            "name": "Kindergruppe",
+            "room": "jeweiliger Raum",
+            "isBreak": false
+          },
+          {
+            "id": 309,
+            "startTime": "15:30",
+            "endTime": "18:00",
+            "name": "Workshops",
+            "room": "jeweiliger Raum",
+            "isBreak": false
+          },
+          {
+            "id": 310,
+            "startTime": "18:00",
+            "endTime": "19:00",
+            "name": "Abendessen",
+            "room": "Speisesaal",
+            "isBreak": true
+          },
+          {
+            "id": 311,
+            "startTime": "19:00",
+            "endTime": "20:00",
+            "name": "Große Runde",
+            "room": "Gottfriedsbogen",
+            "isBreak": false
+          },
+          {
+            "id": 312,
+            "startTime": "20:45",
+            "endTime": "21:00",
+            "name": "Abendgebet",
+            "room": "Kapelle",
+            "isBreak": false
+          },
+          {
+            "id": 313,
+            "startTime": "21:00",
+            "endTime": "22:00",
+            "name": "Erwachsenenangebote",
+            "room": "Gottfriedssaal",
+            "isBreak": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "date": "2019-04-17",
+        "timeSlots": [
+          {
+            "id": 401,
+            "startTime": "08:15",
+            "endTime": "08:30",
+            "name": "Morgenandacht",
+            "room": "Kapelle",
+            "isBreak": false
+          },
+          {
+            "id": 402,
+            "startTime": "08:30",
+            "endTime": "09:15",
+            "name": "Frühstück",
+            "room": "Speisesaal",
+            "isBreak": true
+          },
+          {
+            "id": 403,
+            "startTime": "09:30",
+            "endTime": "10:15",
+            "name": "Grosse Runde",
+            "room": "Gottfriedsbogen",
+            "isBreak": false
+          },
+          {
+            "id": 404,
+            "startTime": "10:15",
+            "endTime": "12:30",
+            "name": "Kindergruppe",
+            "room": "jeweiliger Raum",
+            "isBreak": false
+          },
+          {
+            "id": 405,
+            "startTime": "10:25",
+            "endTime": "12:30",
+            "name": "Erwachsenenrunde",
+            "room": "Gottfriedsbogen",
+            "isBreak": false
+          },
+          {
+            "id": 406,
+            "startTime": "12:30",
+            "endTime": "13:30",
+            "name": "Mittagessen",
+            "room": "Speisesaal",
+            "isBreak": false
+          },
+          {
+            "id": 407,
+            "startTime": "13:30",
+            "endTime": "15:15",
+            "name": "Mittagspause",
+            "isBreak": true
+          },
+          {
+            "id": 408,
+            "startTime": "15:20",
+            "endTime": "18:00",
+            "name": "Kindergruppe",
+            "room": "jeweiliger Raum",
+            "isBreak": false
+          },
+          {
+            "id": 409,
+            "startTime": "15:30",
+            "endTime": "18:00",
+            "name": "Workshops",
+            "room": "jeweiliger Raum",
+            "isBreak": false
+          },
+          {
+            "id": 410,
+            "startTime": "18:00",
+            "endTime": "19:00",
+            "name": "Abendessen",
+            "room": "Speisesaal",
+            "isBreak": true
+          },
+          {
+            "id": 411,
+            "startTime": "19:00",
+            "endTime": "20:00",
+            "name": "Große Runde",
+            "room": "Gottfriedsbogen",
+            "isBreak": false
+          },
+          {
+            "id": 412,
+            "startTime": "20:45",
+            "endTime": "21:00",
+            "name": "Abendgebet",
+            "room": "Kapelle",
+            "isBreak": false
+          },
+          {
+            "id": 413,
+            "startTime": "21:00",
+            "endTime": "00:00",
+            "name": "Bunter Abend",
+            "description": "Musik, Gedichte, Texte, Witze vortragen und zuhören",
+            "room": "Gottfriedsbogen",
+            "isBreak": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "date": "2019-04-18",
+        "timeSlots": [
+          {
+            "id": 501,
+            "startTime": "08:15",
+            "endTime": "08:30",
+            "name": "Morgenandacht",
+            "room": "Kapelle",
+            "isBreak": false
+          },
+          {
+            "id": 502,
+            "startTime": "08:30",
+            "endTime": "09:15",
+            "name": "Frühstück",
+            "room": "Speisesaal",
+            "isBreak": true
+          },
+          {
+            "id": 503,
+            "startTime": "09:30",
+            "endTime": "10:15",
+            "name": "Grosse Runde",
+            "room": "Gottfriedsbogen",
+            "isBreak": false
+          },
+          {
+            "id": 504,
+            "startTime": "10:15",
+            "endTime": "12:30",
+            "name": "Kindergruppe",
+            "room": "jeweiliger Gruppenraum",
+            "isBreak": false
+          },
+          {
+            "id": 505,
+            "startTime": "10:25",
+            "endTime": "12:30",
+            "name": "Liturgische Vorbereitungen",
+            "room": "jeweiliger Gruppenraum",
+            "isBreak": false
+          },
+          {
+            "id": 506,
+            "startTime": "12:30",
+            "endTime": "13:30",
+            "name": "Mittagessen",
+            "room": "Speisesaal",
+            "isBreak": false
+          },
+          {
+            "id": 507,
+            "startTime": "13:30",
+            "endTime": "15:15",
+            "name": "Mittagspause",
+            "isBreak": true
+          },
+          {
+            "id": 508,
+            "startTime": "15:20",
+            "endTime": "17:00",
+            "name": "Kindergruppe",
+            "room": "jeweiliger Raum",
+            "isBreak": false
+          },
+          {
+            "id": 509,
+            "startTime": "15:30",
+            "endTime": "17:00",
+            "name": "Liturgische Vorbereitung",
+            "room": "jeweiliger Raum",
+            "isBreak": false
+          },
+          {
+            "id": 509,
+            "startTime": "17:00",
+            "endTime": "18:00",
+            "name": "Agapefeier",
+            "room": "Weißer Saal",
+            "isBreak": false
+          },
+          {
+            "id": 510,
+            "startTime": "18:00",
+            "endTime": "19:00",
+            "name": "Abendessen",
+            "room": "Speisesaal",
+            "isBreak": true
+          },
+          {
+            "id": 511,
+            "startTime": "19:00",
+            "endTime": "20:00",
+            "name": "Große Runde",
+            "room": "Gottfriedsbogen",
+            "isBreak": false
+          },
+          {
+            "id": 512,
+            "startTime": "20:30",
+            "endTime": "22:00",
+            "name": "Gottestdienst",
+            "room": "Kapelle",
+            "isBreak": false
+          },
+          {
+            "id": 513,
+            "startTime": "22:00",
+            "endTime": "07:00",
+            "name": "Nachtwache",
+            "description": "In Gruppen/Familien Schicht von 1h Nachwache halten, beten, singen, malen, schweigen",
+            "room": "Kapelle",
+            "isBreak": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "date": "2019-04-19",
+        "timeSlots": [
+          {
+            "id": 601,
+            "startTime": "08:15",
+            "endTime": "08:30",
+            "name": "Morgenandacht",
+            "room": "Kapelle",
+            "isBreak": false
+          },
+          {
+            "id": 602,
+            "startTime": "08:30",
+            "endTime": "09:15",
+            "name": "Frühstück",
+            "room": "Speisesaal",
+            "isBreak": true
+          },
+          {
+            "id": 603,
+            "startTime": "09:30",
+            "endTime": "10:15",
+            "name": "Grosse Runde",
+            "room": "Gottfriedsbogen",
+            "isBreak": false
+          },
+          {
+            "id": 605,
+            "startTime": "10:00",
+            "endTime": "11:30",
+            "name": "Kinderkreuzweg",
+            "room": "Park",
+            "isBreak": false
+          },
+          {
+            "id": 606,
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "name": "Mittagessen",
+            "room": "Speisesaal",
+            "isBreak": false
+          },
+          {
+            "id": 607,
+            "startTime": "13:00",
+            "endTime": "15:00",
+            "name": "Mittagspause",
+            "isBreak": true
+          },
+          {
+            "id": 608,
+            "startTime": "15:20",
+            "endTime": "18:00",
+            "name": "Kindergruppe",
+            "room": "jeweiliger Raum",
+            "isBreak": false
+          },
+          {
+            "id": 609,
+            "startTime": "15:30",
+            "endTime": "18:00",
+            "name": "Karfreitagsandacht",
+            "room": "Kapelle",
+            "isBreak": false
+          },
+          {
+            "id": 610,
+            "startTime": "18:00",
+            "endTime": "19:00",
+            "name": "Abendessen",
+            "room": "Speisesaal",
+            "isBreak": true
+          },
+          {
+            "id": 611,
+            "startTime": "19:00",
+            "endTime": "20:00",
+            "name": "Große Runde",
+            "room": "Gottfriedsbogen",
+            "isBreak": false
+          },
+          {
+            "id": 612,
+            "startTime": "20:45",
+            "endTime": "21:00",
+            "name": "Abendgebet",
+            "room": "Kapelle",
+            "isBreak": false
+          },
+          {
+            "id": 613,
+            "startTime": "21:00",
+            "endTime": "22:00",
+            "name": "Erwachsenenangebote",
+            "room": "Gruppenraum",
+            "isBreak": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "date": "2019-04-20",
+        "timeSlots": [
+          {
+            "id": 701,
+            "startTime": "08:15",
+            "endTime": "08:30",
+            "name": "Morgenandacht",
+            "room": "Kapelle",
+            "isBreak": false
+          },
+          {
+            "id": 702,
+            "startTime": "08:30",
+            "endTime": "09:15",
+            "name": "Frühstück",
+            "room": "Speisesaal",
+            "isBreak": true
+          },
+          {
+            "id": 703,
+            "startTime": "09:30",
+            "endTime": "10:15",
+            "name": "Grosse Runde",
+            "room": "Gottfriedsbogen",
+            "isBreak": false
+          },
+          {
+            "id": 704,
+            "startTime": "10:15",
+            "endTime": "12:30",
+            "name": "Kindergruppe",
+            "room": "jeweiliger Raum",
+            "isBreak": false
+          },
+          {
+            "id": 705,
+            "startTime": "10:25",
+            "endTime": "12:30",
+            "name": "Erwachsenenrunde",
+            "room": "Gottfriedsbogen",
+            "isBreak": false
+          },
+          {
+            "id": 706,
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "name": "Mittagessen",
+            "room": "Speisesaal",
+            "isBreak": false
+          },
+          {
+            "id": 707,
+            "startTime": "13:00",
+            "endTime": "15:00",
+            "name": "Mittagspause",
+            "isBreak": true
+          },
+          {
+            "id": 708,
+            "startTime": "15:00",
+            "endTime": "18:00",
+            "name": "Osterwerkstadt",
+            "description": "Familien basteln gemeinsam: Eierfärben, Karten basteln, Hefeteig formen, Osterkerze gestalten",
+            "room": "Hefe: Gottfriedssaal, Eier: roter Raum, Kerze: gelber Raum, Karten: Pilgerhaus",
+            "isBreak": false
+          },
+          {
+            "id": 710,
+            "startTime": "18:00",
+            "endTime": "19:00",
+            "name": "Abendessen",
+            "room": "Speisesaal",
+            "isBreak": true
+          },
+          {
+            "id": 711,
+            "startTime": "19:00",
+            "endTime": "20:00",
+            "name": "Große Runde",
+            "room": "Gottfriedsbogen",
+            "isBreak": false
+          },
+          {
+            "id": 712,
+            "startTime": "20:45",
+            "endTime": "21:00",
+            "name": "Abendgebet",
+            "room": "Kapelle",
+            "isBreak": false
+          },
+          {
+            "id": 713,
+            "startTime": "21:00",
+            "endTime": "22:00",
+            "name": "Erwachsenenangebote",
+            "room": "Gruppenraum",
+            "isBreak": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "date": "2019-04-21",
+        "timeSlots": [
+          {
+            "id": 801,
+            "startTime": "05:45",
+            "endTime": "07:15",
+            "name": "Osternacht",
+            "description": "Gottesdienst, Beginn im Dunkeln, Gang zum Osterfeuer, Tanz, Entzündung Osterkerze, Rückkehr in Kapelle",
+            "room": "Kapelle",
+            "isBreak": false
+          },
+          {
+            "id": 802,
+            "startTime": "07:30",
+            "endTime": "08:00",
+            "name": "Ostergruß",
+            "description": "Jeder wünscht jedem frohe Ostern, Umarmungen, Sekt, Gebäck",
+            "room": "Flur vor Speisesaal",
+            "isBreak": true
+          },
+          {
+            "id": 803,
+            "startTime": "08:00",
+            "endTime": "09:00",
+            "name": "Frühstück",
+            "room": "Speisesaal",
+            "isBreak": true
+          },
+          {
+            "id": 804,
+            "startTime": "09:00",
+            "endTime": "10:30",
+            "name": "Große Runde",
+            "room": "Gottfriedsbogen",
+            "isBreak": false
+          },
+          {
+            "id": 805,
+            "startTime": "10:30",
+            "endTime": "11:30",
+            "name": "Osternestersuche",
+            "room": "Park",
+            "isBreak": false
+          },
+          {
+            "id": 806,
+            "startTime": "12:00",
+            "endTime": "13:00",
+            "name": "Mittagessen",
+            "room": "Speisesaal",
+            "isBreak": true
+          },
+          {
+            "id": 807,
+            "startTime": "13:00",
+            "endTime": "14:00",
+            "name": "Gruppenstunde",
+            "room": "Gruppenraum",
+            "isBreak": false
+          },
+          {
+            "id": 808,
+            "startTime": "13:15",
+            "endTime": "14:00",
+            "name": "Erwachsenenrunde",
+            "description": "Feedback, Dank, Abschluss",
+            "room": "Gruppenraum",
+            "isBreak": false
+          },
+          {
+            "id": 809,
+            "startTime": "14:00",
+            "endTime": "14:15",
+            "name": "Auf Wiedersehen",
+            "room": "Wiese bei Kapelle",
+            "isBreak": true
+          },
+          {
+            "id": 810,
+            "startTime": "14:15",
+            "endTime": "15:00",
+            "name": "Abreise",
+            "description": "Aufräumen, Heimfahrt",
+            "isBreak": true
+          }
+        ]
+      }
+    ],
+    "streams": [
+      {
+        "id": 1,
+        "name": "Bibliolog",
+        "color": "#ff304c"
+      },
+      {
+        "id": 2,
+        "name": "Wort",
+        "color": "#0070ad"
+      },
+      {
+        "id": 3,
+        "name": "Phantasie",
+        "color": "#95e616"
+      }
+    ]
+  },
+  "workshopStreams": [
+    {
+      "id": 1,
+      "name": "Bibliolog",
+      "description": "Bilbel neu erleben.",
+      "leaders": [1],
+      "room": "Kapelle"
+    },
+    {
+      "id": 2,
+      "name": "Tanzen und Malen",
+      "description": "Worte, Texte, Inspirationen, Begegnungen.",
+      "leaders": [2],
+      "room": "Weißer Saal"
+    },
+    {
+      "id": 3,
+      "name": "Phantasie",
+      "description": "Traumreise, Geschichten, Pastellkreidemalen, Musik.",
+      "leaders": [3],
+      "room": "Gelber Gruppenraum"
+    }
+  ],
+  "presenters": [
+    {
+      "id": 1,
+      "name": "Martina Eckrich"
+    },
+    {
+      "id": 2,
+      "name": "Martina Eckrich"
+    },
+    {
+      "id": 3,
+      "name": "Claudia Lorenz-Blumöhr"
+    }
+  ]
+}

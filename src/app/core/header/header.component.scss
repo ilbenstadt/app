@@ -1,0 +1,39 @@
+@import '../../../variables';
+
+.ea-toolbar {
+  color: $ea-white;
+  z-index: 100;
+
+  h1.app-name {
+    margin: 0 1em;
+  }
+
+  .logo-wrapper {
+    display: flex;
+  }
+
+  .logo {
+    height: 1.8em;
+    margin-top: 0.3em;
+  }
+
+  .fill-remaining-space {
+    flex: 1 1 auto;
+  }
+}
+
+@media (max-width: 599px) {
+  .ea-toolbar {
+    position: fixed;
+
+    h1.app-name {
+      margin-left: 0.5em;
+      font-size: 0.8em;
+    }
+
+    .logo {
+      height: 1.5em;
+      margin-top: 0.2em;
+    }
+  }
+}
