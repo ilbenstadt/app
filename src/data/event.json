@@ -324,17 +324,9 @@
           },
           {
             "id": 408,
-            "startTime": "15:20",
-            "endTime": "18:00",
-            "name": "Kindergruppe",
-            "room": "jeweiliger Raum",
-            "isBreak": false
-          },
-          {
-            "id": 409,
             "startTime": "15:30",
             "endTime": "18:00",
-            "name": "Workshops",
+            "name": "Familienangebote",
             "room": "jeweiliger Raum",
             "isBreak": false
           },
@@ -474,15 +466,15 @@
           },
           {
             "id": 512,
-            "startTime": "20:30",
-            "endTime": "22:00",
+            "startTime": "21:30",
+            "endTime": "22:30",
             "name": "Gottestdienst",
             "room": "Kapelle",
             "isBreak": false
           },
           {
             "id": 513,
-            "startTime": "22:00",
+            "startTime": "23:00",
             "endTime": "07:00",
             "name": "Nachtwache",
             "description": "In Gruppen/Familien Schicht von 1h Nachwache halten, beten, singen, malen, schweigen",
@@ -521,8 +513,8 @@
           },
           {
             "id": 605,
-            "startTime": "10:00",
-            "endTime": "11:30",
+            "startTime": "10:30",
+            "endTime": "11:45",
             "name": "Kinderkreuzweg",
             "room": "Park",
             "isBreak": false
@@ -552,7 +544,7 @@
           },
           {
             "id": 609,
-            "startTime": "15:30",
+            "startTime": "15:00",
             "endTime": "18:00",
             "name": "Karfreitagsandacht",
             "room": "Kapelle",
@@ -805,21 +797,21 @@
   "workshopStreams": [
     {
       "id": 1,
-      "name": "Bibliolog",
+      "name": "Erfahrung teilen",
       "description": "Bilbel neu erleben.",
       "leaders": [1],
       "room": "Kapelle"
     },
     {
       "id": 2,
-      "name": "Tanzen und Malen",
-      "description": "Worte, Texte, Inspirationen, Begegnungen.",
+      "name": "Auf der Spur",
+      "description": "Worte, Texte, Inspirationen, Tanzen.",
       "leaders": [2],
       "room": "Weißer Saal"
     },
     {
       "id": 3,
-      "name": "Phantasie",
+      "name": "Botschaft",
       "description": "Traumreise, Geschichten, Pastellkreidemalen, Musik.",
       "leaders": [3],
       "room": "Gelber Gruppenraum"
